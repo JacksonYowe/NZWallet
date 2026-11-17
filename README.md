@@ -6,6 +6,21 @@
 
 NZWallet is a native SwiftUI iPhone prototype exploring a licence wallet, bilingual screens, selective disclosure and experimental mobile driving-licence sharing. It has no connected government database or production issuer.
 
+## Screenshots
+
+Actual iOS Simulator renders using the bundled fictional data. **Test prototype only; no government backend is connected.** Tilt shimmer and star animation are interactive in the app and are not demonstrated by these still images.
+
+<table>
+  <tr>
+    <td align="center"><strong>Home</strong><br><img src="docs/images/home.png" width="260" alt="Home screen with a fictional TEST licence and service shortcuts"></td>
+    <td align="center"><strong>Wallet</strong><br><img src="docs/images/wallet.png" width="260" alt="Wallet showing the fictional TEST licence"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Licence detail</strong><br><img src="docs/images/licence.png" width="260" alt="Expanded fictional licence with TEST portrait and signature"></td>
+    <td align="center"><strong>Services</strong><br><img src="docs/images/services.png" width="260" alt="Prototype services catalogue"></td>
+  </tr>
+</table>
+
 ## Run in the iPhone simulator
 
 Requires a Mac and Xcode. The deployment target is iOS 17.0; this release was built with Xcode 27.2 and the iOS 27.2 SDK. The source uses newer SDK APIs behind availability checks, so an old Xcode installation may not compile it. No Swift package dependencies are required.
@@ -74,3 +89,11 @@ Original project source, documentation and original graphics are licensed under 
 The bundled **Public Sans** font files remain under their separately included [SIL Open Font License 1.1](Resources/Fonts/PublicSans-OFL.txt). That font licence is retained and is not replaced by GPLv3. See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 
 Names and references to government services do not imply affiliation or endorsement.
+
+## Contributors
+
+- [JacksonYowe](https://github.com/JacksonYowe) — project owner, direction, requirements and testing.
+- **Claude Code** — AI-assisted development.
+- **Codex** — AI-assisted development, testing, documentation and release preparation.
+
+Claude Code and Codex are credited as AI development tools, not human maintainers. Their inclusion does not imply endorsement by their providers.
