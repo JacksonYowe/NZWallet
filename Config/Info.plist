@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>CODE_SIGN_STYLE</key>
+	<string>Automatic</string>
+	<key>CURRENT_PROJECT_VERSION</key>
+	<integer>1</integer>
+	<key>MARKETING_VERSION</key>
+	<string>1.0</string>
+	<key>SWIFT_VERSION</key>
+	<real>5</real>
+	<key>TARGETED_DEVICE_FAMILY</key>
+	<integer>1</integer>
+	<key>UIAppFonts</key>
+	<array>
+		<string>PublicSans-Regular.ttf</string>
+		<string>PublicSans-Medium.ttf</string>
+		<string>PublicSans-SemiBold.ttf</string>
+		<string>PublicSans-Bold.ttf</string>
+		<string>PublicSans-ExtraBold.ttf</string>
+		<string>PublicSans-Black.ttf</string>
+	</array>
+	<key>UIDesignRequiresCompatibility</key>
+	<true/>
+</dict>
+</plist>

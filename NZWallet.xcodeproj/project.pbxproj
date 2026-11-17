@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02EEF92DF520C465F0C61020 /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94CA3BA2325E13D79482D74 /* Platform.swift */; };
+		07609E39B0740F0FC9C1BAC9 /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AB58E1AC0D94DBEA77713C /* Crypto.swift */; };
+		0E6FCE7578ECE96AD0FFD4FD /* PublicSans-OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6F99ED81494E660270626DC1 /* PublicSans-OFL.txt */; };
+		1AD652BA7461B8DFD2A18FDF /* ServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606FC52F7B56740A3B3F242E /* ServicesView.swift */; };
+		2F005154F74956D11E7354C0 /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EAA03E8E811B7C842EEC4 /* Components.swift */; };
+		3B32367FD6A1184A17B42629 /* MDLViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E36387FD3022C7EA9AAEBC0 /* MDLViews.swift */; };
+		521EF550DEB1A1A57C3DC486 /* NZWalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BC7797184B2040212DEBF07 /* NZWalletApp.swift */; };
+		55E270E2F22AC249C4BA596A /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29D67EFA61FFA89D81DC34A6 /* Typography.swift */; };
+		56415B0D5880420A3CBAB01F /* Motifs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2793384A35E56FEA2B5C1A1D /* Motifs.swift */; };
+		5D7CB648BEA5C13E175A5F90 /* ServiceDetailViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 675FDA71532CB92C3585036B /* ServiceDetailViews.swift */; };
+		610433DB11D7434F0BF7388D /* PublicSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FABE665566B09C6922BE9E7 /* PublicSans-SemiBold.ttf */; };
+		86E5B9BA1C66557DF9BC4020 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160C430DC98C4F118DA56711 /* RootView.swift */; };
+		95625B45B97D192658F7F5D2 /* TEST_FILE_ONLY.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1710C6CCA0FDCD58372F4558 /* TEST_FILE_ONLY.swift */; };
+		975F792355602FF8BFC2CC1C /* COSE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272951ECA9E62878A8A1F322 /* COSE.swift */; };
+		9B31BB4500B3AFF80397658C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7559C264E7926EE642AA0C1C /* Assets.xcassets */; };
+		9CB4303AC124C6BD89C07CF2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51040BDFF6E5E779792D6E1D /* Localizable.strings */; };
+		A39DBD78BA5DC4933BB980B6 /* Hologram.metal in Sources */ = {isa = PBXBuildFile; fileRef = 54ADCAAF20EDF2592F9FC013 /* Hologram.metal */; };
+		A72E4E8639F86DC610AA65B1 /* ActivityAndSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449909CF79EA4447050B5CA4 /* ActivityAndSettings.swift */; };
+		AB2B0183215EA948DE2A12E1 /* MDLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBC42C6CFCF8C50FC26E031 /* MDLSession.swift */; };
+		B0BBF7FF384F97A844B62C60 /* LicenceViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20F3172EC2B51E46041A0998 /* LicenceViews.swift */; };
+		B27995DCB508C74545B1682E /* MDLBluetooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D029133D0BF59A897198E6E /* MDLBluetooth.swift */; };
+		BA59183F718DB74210D6C839 /* X509.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3AD0024AF6DC3558660E64 /* X509.swift */; };
+		BB0A4F8D00D0B804C22B8CA0 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F720E0F408620E1FA29B432 /* WalletView.swift */; };
+		BB1324E06EBC12E8E3190F3B /* PublicSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 84E3C9D15EF972A20FB0C8FA /* PublicSans-ExtraBold.ttf */; };
+		BBBB95F6AA12257AD8337078 /* PublicSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7ABDC4181E8FA24E33432D5B /* PublicSans-Regular.ttf */; };
+		C15D09536E4353758016B4B8 /* PublicSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4C46276E5433C77E1B1C299E /* PublicSans-Bold.ttf */; };
+		CFF2A1256586342E13CA77E4 /* HomeAndInbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88025E51FD6CB193ABB26C4 /* HomeAndInbox.swift */; };
+		D092CEE3C3E8288388312D4A /* PublicSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3140C70F013EA2ECBF1DB0CB /* PublicSans-Medium.ttf */; };
+		D1F5B12F94097D8CFA8D4E3C /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5FF923F4A224355F5808ED6 /* Localization.swift */; };
+		D39F2C6D8C08AF008EB10752 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA2E940756A42790EFD5D4 /* Theme.swift */; };
+		D8AD03DD0ABC16E01734CAF5 /* WalletStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F483F02425DBD1290F9E169 /* WalletStore.swift */; };
+		D9E144518271B768CCD0B0B6 /* ServiceCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1303D3AF8BFFB97FA646F1FC /* ServiceCatalog.swift */; };
+		DA8D975D04A9A8FA1E42C882 /* MDL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171C212D0E5CF139FC00C2C7 /* MDL.swift */; };
+		DD9BA51E172EC1C903E3A96A /* DemoPortrait.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C785ABE873E586C6D41F5 /* DemoPortrait.swift */; };
+		E57D69C605D9A3D62137C24D /* CBOR.swift in Sources */ = {isa = PBXBuildFile; fileRef = F738DE6D5853649951189EF5 /* CBOR.swift */; };
+		EDD2AF882ED7E3A1CF9F75BB /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237EE84BC91F62B83ED90A70 /* Models.swift */; };
+		EFF2835FA69C5DC5E1992A59 /* demo-portrait.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 168C6FBF307A836155ED4314 /* demo-portrait.jpg */; };
+		F2ED9A785C84CF3205910038 /* Verifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5AC0D0B74BB4E82F5B76A20 /* Verifier.swift */; };
+		F850A0F2228E69288858A0BB /* Hologram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34BE96432C271CA0D222C0B3 /* Hologram.swift */; };
+		FD184D31968847F0EFE281C3 /* VerifyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08743E4888D690F1F1D8673C /* VerifyView.swift */; };
+		FDAA4564D9D67261DA620A5B /* PublicSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFF53DE1CB792DE44A7F446E /* PublicSans-Black.ttf */; };
+		FF8245FC79354191D0106FB3 /* demo-signature.png in Resources */ = {isa = PBXBuildFile; fileRef = ABC89FDD82A3839A9C31E1FC /* demo-signature.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08743E4888D690F1F1D8673C /* VerifyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyView.swift; sourceTree = "<group>"; };
+		0F720E0F408620E1FA29B432 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		0FABE665566B09C6922BE9E7 /* PublicSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		1132679378CFF7D9105FC613 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1303D3AF8BFFB97FA646F1FC /* ServiceCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceCatalog.swift; sourceTree = "<group>"; };
+		160C430DC98C4F118DA56711 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		168C6FBF307A836155ED4314 /* demo-portrait.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "demo-portrait.jpg"; sourceTree = "<group>"; };
+		1710C6CCA0FDCD58372F4558 /* TEST_FILE_ONLY.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TEST_FILE_ONLY.swift; sourceTree = "<group>"; };
+		171C212D0E5CF139FC00C2C7 /* MDL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDL.swift; sourceTree = "<group>"; };
+		20F3172EC2B51E46041A0998 /* LicenceViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenceViews.swift; sourceTree = "<group>"; };
+		237EE84BC91F62B83ED90A70 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		272951ECA9E62878A8A1F322 /* COSE.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COSE.swift; sourceTree = "<group>"; };
+		2793384A35E56FEA2B5C1A1D /* Motifs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Motifs.swift; sourceTree = "<group>"; };
+		29D67EFA61FFA89D81DC34A6 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		2D029133D0BF59A897198E6E /* MDLBluetooth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDLBluetooth.swift; sourceTree = "<group>"; };
+		2E36387FD3022C7EA9AAEBC0 /* MDLViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDLViews.swift; sourceTree = "<group>"; };
+		3140C70F013EA2ECBF1DB0CB /* PublicSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-Medium.ttf"; sourceTree = "<group>"; };
+		34BE96432C271CA0D222C0B3 /* Hologram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hologram.swift; sourceTree = "<group>"; };
+		449909CF79EA4447050B5CA4 /* ActivityAndSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityAndSettings.swift; sourceTree = "<group>"; };
+		4B3EAA03E8E811B7C842EEC4 /* Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Components.swift; sourceTree = "<group>"; };
+		4C46276E5433C77E1B1C299E /* PublicSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-Bold.ttf"; sourceTree = "<group>"; };
+		4C8C785ABE873E586C6D41F5 /* DemoPortrait.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoPortrait.swift; sourceTree = "<group>"; };
+		4F483F02425DBD1290F9E169 /* WalletStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletStore.swift; sourceTree = "<group>"; };
+		53B26203CC13B2A8ADC67176 /* mi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = mi; path = mi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		54ADCAAF20EDF2592F9FC013 /* Hologram.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Hologram.metal; sourceTree = "<group>"; };
+		5CBC42C6CFCF8C50FC26E031 /* MDLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MDLSession.swift; sourceTree = "<group>"; };
+		606FC52F7B56740A3B3F242E /* ServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesView.swift; sourceTree = "<group>"; };
+		675FDA71532CB92C3585036B /* ServiceDetailViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceDetailViews.swift; sourceTree = "<group>"; };
+		6E3AD0024AF6DC3558660E64 /* X509.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = X509.swift; sourceTree = "<group>"; };
+		6F99ED81494E660270626DC1 /* PublicSans-OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "PublicSans-OFL.txt"; sourceTree = "<group>"; };
+		7559C264E7926EE642AA0C1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7ABDC4181E8FA24E33432D5B /* PublicSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-Regular.ttf"; sourceTree = "<group>"; };
+		84CA2E940756A42790EFD5D4 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		84E3C9D15EF972A20FB0C8FA /* PublicSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		9BC7797184B2040212DEBF07 /* NZWalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NZWalletApp.swift; sourceTree = "<group>"; };
+		A5FF923F4A224355F5808ED6 /* Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Localization.swift; sourceTree = "<group>"; };
+		A94CA3BA2325E13D79482D74 /* Platform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		ABC89FDD82A3839A9C31E1FC /* demo-signature.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "demo-signature.png"; sourceTree = "<group>"; };
+		AFF53DE1CB792DE44A7F446E /* PublicSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PublicSans-Black.ttf"; sourceTree = "<group>"; };
+		B88025E51FD6CB193ABB26C4 /* HomeAndInbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAndInbox.swift; sourceTree = "<group>"; };
+		CAA0DCABF782A1E1A3ACEE93 /* NZWallet.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = NZWallet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5AB58E1AC0D94DBEA77713C /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		E5AC0D0B74BB4E82F5B76A20 /* Verifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Verifier.swift; sourceTree = "<group>"; };
+		F738DE6D5853649951189EF5 /* CBOR.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CBOR.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		030240E13EB64514897B3D78 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AFF53DE1CB792DE44A7F446E /* PublicSans-Black.ttf */,
+				4C46276E5433C77E1B1C299E /* PublicSans-Bold.ttf */,
+				84E3C9D15EF972A20FB0C8FA /* PublicSans-ExtraBold.ttf */,
+				3140C70F013EA2ECBF1DB0CB /* PublicSans-Medium.ttf */,
+				6F99ED81494E660270626DC1 /* PublicSans-OFL.txt */,
+				7ABDC4181E8FA24E33432D5B /* PublicSans-Regular.ttf */,
+				0FABE665566B09C6922BE9E7 /* PublicSans-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		158A212C1DA48D821F55DCDD = {
+			isa = PBXGroup;
+			children = (
+				E9506BD5F2105619BEA22F5C /* Resources */,
+				DD013C4223CFA0F89E315E51 /* Sources */,
+				2F7BFF18199C1CB706E860F0 /* TEST FILES CHANGE FOR DEPLOYMENT */,
+				EBA417DFA3498807502B54F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F7BFF18199C1CB706E860F0 /* TEST FILES CHANGE FOR DEPLOYMENT */ = {
+			isa = PBXGroup;
+			children = (
+				168C6FBF307A836155ED4314 /* demo-portrait.jpg */,
+				ABC89FDD82A3839A9C31E1FC /* demo-signature.png */,
+				1710C6CCA0FDCD58372F4558 /* TEST_FILE_ONLY.swift */,
+			);
+			path = "TEST FILES CHANGE FOR DEPLOYMENT";
+			sourceTree = "<group>";
+		};
+		727EA0F7969883A007B77930 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D5AB58E1AC0D94DBEA77713C /* Crypto.swift */,
+				A5FF923F4A224355F5808ED6 /* Localization.swift */,
+				237EE84BC91F62B83ED90A70 /* Models.swift */,
+				A94CA3BA2325E13D79482D74 /* Platform.swift */,
+				E5AC0D0B74BB4E82F5B76A20 /* Verifier.swift */,
+				4F483F02425DBD1290F9E169 /* WalletStore.swift */,
+				B5A1F51DAF1224511255725A /* MDL */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7F80903288C95E84C5A5E9C3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				449909CF79EA4447050B5CA4 /* ActivityAndSettings.swift */,
+				4B3EAA03E8E811B7C842EEC4 /* Components.swift */,
+				34BE96432C271CA0D222C0B3 /* Hologram.swift */,
+				B88025E51FD6CB193ABB26C4 /* HomeAndInbox.swift */,
+				20F3172EC2B51E46041A0998 /* LicenceViews.swift */,
+				2E36387FD3022C7EA9AAEBC0 /* MDLViews.swift */,
+				2793384A35E56FEA2B5C1A1D /* Motifs.swift */,
+				160C430DC98C4F118DA56711 /* RootView.swift */,
+				1303D3AF8BFFB97FA646F1FC /* ServiceCatalog.swift */,
+				675FDA71532CB92C3585036B /* ServiceDetailViews.swift */,
+				606FC52F7B56740A3B3F242E /* ServicesView.swift */,
+				84CA2E940756A42790EFD5D4 /* Theme.swift */,
+				29D67EFA61FFA89D81DC34A6 /* Typography.swift */,
+				08743E4888D690F1F1D8673C /* VerifyView.swift */,
+				0F720E0F408620E1FA29B432 /* WalletView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		98536F35B6AA33D85BCD3F18 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				9BC7797184B2040212DEBF07 /* NZWalletApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B5A1F51DAF1224511255725A /* MDL */ = {
+			isa = PBXGroup;
+			children = (
+				F738DE6D5853649951189EF5 /* CBOR.swift */,
+				272951ECA9E62878A8A1F322 /* COSE.swift */,
+				4C8C785ABE873E586C6D41F5 /* DemoPortrait.swift */,
+				171C212D0E5CF139FC00C2C7 /* MDL.swift */,
+				5CBC42C6CFCF8C50FC26E031 /* MDLSession.swift */,
+				6E3AD0024AF6DC3558660E64 /* X509.swift */,
+			);
+			path = MDL;
+			sourceTree = "<group>";
+		};
+		DD013C4223CFA0F89E315E51 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				98536F35B6AA33D85BCD3F18 /* App */,
+				727EA0F7969883A007B77930 /* Core */,
+				F02ADB7956531A71F1B9B97C /* Platform */,
+				FB8154DF99763B3F89F0426C /* Shaders */,
+				7F80903288C95E84C5A5E9C3 /* Views */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		E9506BD5F2105619BEA22F5C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7559C264E7926EE642AA0C1C /* Assets.xcassets */,
+				030240E13EB64514897B3D78 /* Fonts */,
+				51040BDFF6E5E779792D6E1D /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EBA417DFA3498807502B54F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CAA0DCABF782A1E1A3ACEE93 /* NZWallet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F02ADB7956531A71F1B9B97C /* Platform */ = {
+			isa = PBXGroup;
+			children = (
+				2D029133D0BF59A897198E6E /* MDLBluetooth.swift */,
+			);
+			path = Platform;
+			sourceTree = "<group>";
+		};
+		FB8154DF99763B3F89F0426C /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				54ADCAAF20EDF2592F9FC013 /* Hologram.metal */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7A64C4238039A40BE2B196B /* NZWallet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 164DB91612D04CFAAA00C391 /* Build configuration list for PBXNativeTarget "NZWallet" */;
+			buildPhases = (
+				E5FF00A6BCCC26FDD023D031 /* Sources */,
+				7A25D91A01069A3F395CC41B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NZWallet;
+			packageProductDependencies = (
+			);
+			productName = NZWallet;
+			productReference = CAA0DCABF782A1E1A3ACEE93 /* NZWallet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BEDB1DC7B5F9BA66E25859BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+				};
+			};
+			buildConfigurationList = 6D908265F9B35A7745BE3E9E /* Build configuration list for PBXProject "NZWallet" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				mi,
+			);
+			mainGroup = 158A212C1DA48D821F55DCDD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EBA417DFA3498807502B54F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7A64C4238039A40BE2B196B /* NZWallet */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A25D91A01069A3F395CC41B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B31BB4500B3AFF80397658C /* Assets.xcassets in Resources */,
+				9CB4303AC124C6BD89C07CF2 /* Localizable.strings in Resources */,
+				FDAA4564D9D67261DA620A5B /* PublicSans-Black.ttf in Resources */,
+				C15D09536E4353758016B4B8 /* PublicSans-Bold.ttf in Resources */,
+				BB1324E06EBC12E8E3190F3B /* PublicSans-ExtraBold.ttf in Resources */,
+				D092CEE3C3E8288388312D4A /* PublicSans-Medium.ttf in Resources */,
+				0E6FCE7578ECE96AD0FFD4FD /* PublicSans-OFL.txt in Resources */,
+				BBBB95F6AA12257AD8337078 /* PublicSans-Regular.ttf in Resources */,
+				610433DB11D7434F0BF7388D /* PublicSans-SemiBold.ttf in Resources */,
+				EFF2835FA69C5DC5E1992A59 /* demo-portrait.jpg in Resources */,
+				FF8245FC79354191D0106FB3 /* demo-signature.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5FF00A6BCCC26FDD023D031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A72E4E8639F86DC610AA65B1 /* ActivityAndSettings.swift in Sources */,
+				E57D69C605D9A3D62137C24D /* CBOR.swift in Sources */,
+				975F792355602FF8BFC2CC1C /* COSE.swift in Sources */,
+				2F005154F74956D11E7354C0 /* Components.swift in Sources */,
+				07609E39B0740F0FC9C1BAC9 /* Crypto.swift in Sources */,
+				DD9BA51E172EC1C903E3A96A /* DemoPortrait.swift in Sources */,
+				A39DBD78BA5DC4933BB980B6 /* Hologram.metal in Sources */,
+				F850A0F2228E69288858A0BB /* Hologram.swift in Sources */,
+				CFF2A1256586342E13CA77E4 /* HomeAndInbox.swift in Sources */,
+				B0BBF7FF384F97A844B62C60 /* LicenceViews.swift in Sources */,
+				D1F5B12F94097D8CFA8D4E3C /* Localization.swift in Sources */,
+				DA8D975D04A9A8FA1E42C882 /* MDL.swift in Sources */,
+				B27995DCB508C74545B1682E /* MDLBluetooth.swift in Sources */,
+				AB2B0183215EA948DE2A12E1 /* MDLSession.swift in Sources */,
+				3B32367FD6A1184A17B42629 /* MDLViews.swift in Sources */,
+				EDD2AF882ED7E3A1CF9F75BB /* Models.swift in Sources */,
+				56415B0D5880420A3CBAB01F /* Motifs.swift in Sources */,
+				521EF550DEB1A1A57C3DC486 /* NZWalletApp.swift in Sources */,
+				02EEF92DF520C465F0C61020 /* Platform.swift in Sources */,
+				86E5B9BA1C66557DF9BC4020 /* RootView.swift in Sources */,
+				D9E144518271B768CCD0B0B6 /* ServiceCatalog.swift in Sources */,
+				5D7CB648BEA5C13E175A5F90 /* ServiceDetailViews.swift in Sources */,
+				1AD652BA7461B8DFD2A18FDF /* ServicesView.swift in Sources */,
+				95625B45B97D192658F7F5D2 /* TEST_FILE_ONLY.swift in Sources */,
+				D39F2C6D8C08AF008EB10752 /* Theme.swift in Sources */,
+				55E270E2F22AC249C4BA596A /* Typography.swift in Sources */,
+				F2ED9A785C84CF3205910038 /* Verifier.swift in Sources */,
+				FD184D31968847F0EFE281C3 /* VerifyView.swift in Sources */,
+				D8AD03DD0ABC16E01734CAF5 /* WalletStore.swift in Sources */,
+				BB0A4F8D00D0B804C22B8CA0 /* WalletView.swift in Sources */,
+				BA59183F718DB74210D6C839 /* X509.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		51040BDFF6E5E779792D6E1D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1132679378CFF7D9105FC613 /* en */,
+				53B26203CC13B2A8ADC67176 /* mi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38FE0FD3B5CF0CBD6AB8AB6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		52E401F4347F251C90DE10B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		874C8588FC06C471B2B6AFCF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Config/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "NZ Services";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Share your licence with a checker's phone nearby, without internet.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Scan verification QR codes.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Unlock your wallet and confirm sharing.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Use device tilt to change the licence watermark colours.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.nzdemo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D17DE4A29208637CADAA48F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Config/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "NZ Services";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Share your licence with a checker's phone nearby, without internet.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Scan verification QR codes.";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Unlock your wallet and confirm sharing.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Use device tilt to change the licence watermark colours.";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.nzdemo;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		164DB91612D04CFAAA00C391 /* Build configuration list for PBXNativeTarget "NZWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				874C8588FC06C471B2B6AFCF /* Debug */,
+				D17DE4A29208637CADAA48F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6D908265F9B35A7745BE3E9E /* Build configuration list for PBXProject "NZWallet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E401F4347F251C90DE10B4 /* Debug */,
+				38FE0FD3B5CF0CBD6AB8AB6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BEDB1DC7B5F9BA66E25859BD /* Project object */;
+}

@@ -1,0 +1,24 @@
+# Personal machine and Xcode state
+.DS_Store
+._*
+**/xcuserdata/
+*.xcuserstate
+*.xcuserdatad/
+# Build output and signing files
+build/
+DerivedData/
+*.xcarchive
+*.ipa
+*.app/
+*.dSYM/
+*.p12
+*.p8
+*.mobileprovision
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+# Test output
+*.xcresult/
